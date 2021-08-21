@@ -6,7 +6,7 @@
         <div class="header__logo">MNTN</div>
         <div class="header__menu">
           <ul>
-            <li>Equipment</li>
+            <li>Equipment 1</li>
             <li>About us</li>
             <li>Blog</li>
           </ul>
