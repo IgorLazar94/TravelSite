@@ -1,11 +1,9 @@
 <template>
   <div class="mountins-beyond__main-title">
     <div class="hiking-guide__wrapper">
-      <div class="hiking-guide__line">
-        <hr class="hr-line" />
-      </div>
+      <div class="hiking-guide__line"></div>
       <div class="hiking-guide__text-after-line">
-        <p>A Hiking guide</p>
+        <p class="paragraf-with-text">A Hiking guide</p>
       </div>
     </div>
     <div class="be-prepared__main">
@@ -33,30 +31,32 @@ export default {};
   }
 }
 .hiking-guide {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
   &__wrapper {
+    display: inline-block;
   }
 
   &__line {
-    .hr-line {
-      display: inline;
-      color: #fbd784;
-      width: 72px;
-      height: 2px;
-      size: 2px;
-      transform: rotate(90deg);
-    }
+    display: inline-block;
+    width: 72px;
+    height: 2px;
+    background-color: black;
   }
 
   &__text-after-line {
+    .paragraf-with-text {
+      display: inline-block;
+      color: #fbd784;
+      font-weight: 800;
+      font-size: 18px;
+      line-height: 22px;
+      letter-spacing: 6px;
+      text-transform: uppercase;
+      margin-bottom: 32px;
+    }
     // font-family: Gilroy;
-    display: inline;
-    color: #fbd784;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 22px;
-    letter-spacing: 6px;
-    text-transform: uppercase;
-    margin-bottom: 32px;
   }
 }
 .be-prepared {
