@@ -5,7 +5,9 @@
     </div>
     <div class="mountins-beyond__main-block">
       <div class="mountins-beyond__main-block-social"></div>
-      <div class="mountins-beyond__main-title"></div>
+      <div class="mountins-beyond__main-title">
+        <MountainsBeyond> </MountainsBeyond>
+      </div>
       <div class="mountins-beyond__main-pagination"></div>
     </div>
     <div class="mountins-beyond__firs-section"></div>

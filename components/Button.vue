@@ -10,7 +10,7 @@
   </div>
 </template>
 
-<style lang='scss'>
+<style lang="scss">
 .button-main {
 }
 .button-wrapper {
@@ -33,4 +33,3 @@
   //   border-bottom: 2px solid grey;
 }
 </style>
-
