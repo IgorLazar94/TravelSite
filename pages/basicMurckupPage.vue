@@ -8,7 +8,7 @@
       <div class="mountins-beyond__main-block">
         <div class="mountins-beyond__main-block-social"></div>
         <div class="mountins-beyond__main-title">
-          <MountainsBeyond> </MountainsBeyond>
+          <MountainsBeyondComponent> </MountainsBeyondComponent>
         </div>
         <div class="mountins-beyond__main-pagination"></div>
       </div>
