@@ -1,17 +1,20 @@
 <template>
-  <div class="mountins-wrapper">
-    <div class="mountins-beyond__header">
-      <HeaderComponent> </HeaderComponent>
-    </div>
-    <div class="mountins-beyond__main-block">
-      <div class="mountins-beyond__main-block-social"></div>
-      <div class="mountins-beyond__main-title">
-        <MountainsBeyond> </MountainsBeyond>
+  <div class="mountins">
+    <div class="mountins-background"></div>
+    <div class="mountins-wrapper">
+      <div class="mountins-beyond__header">
+        <HeaderComponent> </HeaderComponent>
       </div>
-      <div class="mountins-beyond__main-pagination"></div>
+      <div class="mountins-beyond__main-block">
+        <div class="mountins-beyond__main-block-social"></div>
+        <div class="mountins-beyond__main-title">
+          <MountainsBeyond> </MountainsBeyond>
+        </div>
+        <div class="mountins-beyond__main-pagination"></div>
+      </div>
+      <div class="mountins-beyond__firs-section"></div>
+      <div class="mountins-beyond__second-section"></div>
     </div>
-    <div class="mountins-beyond__firs-section"></div>
-    <div class="mountins-beyond__second-section"></div>
   </div>
 </template>
 <script>
@@ -21,9 +24,22 @@ export default {};
 body {
   margin: 0 auto;
 }
+.mountins-background {
+  background-image: url(static/background-main.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  max-width: 1760px;
+  filter: brightness(90%);
+}
+
+.mountins {
+  position: relative;
+}
+
 .mountins-wrapper {
   margin: 0 auto;
   max-width: 1760px;
+  position: relative;
 }
 .mountins-beyond {
   &__header {

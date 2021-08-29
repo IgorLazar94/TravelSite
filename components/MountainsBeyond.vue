@@ -1,8 +1,8 @@
 <template>
   <div class="mountins-beyond__main-title">
     <div class="hiking-guide__wrapper">
-      <div class="hiking-guide__line"></div>
       <div class="hiking-guide__text-after-line">
+        <div class="hiking-guide__line"></div>
         <p class="paragraf-with-text">A Hiking guide</p>
       </div>
     </div>
@@ -39,10 +39,13 @@ export default {};
   }
 
   &__line {
+    position: relative;
+    top: 1px;
     display: inline-block;
     width: 72px;
     height: 2px;
-    background-color: black;
+    background-color: #fbd784;
+    vertical-align: super;
   }
 
   &__text-after-line {
@@ -61,7 +64,6 @@ export default {};
 }
 .be-prepared {
   &__main {
-    background-color: darkgrey;
   }
 
   &__wrapper {
