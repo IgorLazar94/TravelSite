@@ -16,7 +16,7 @@
         <div class="first-section__link"><a href="#">read more</a></div>
       </div>
       <div class="first-section__image">
-        <img src=url(./static/jpeg/firstsection.jpg); alt="Travel man">
+        <img src="../static/jpeg/firstsection.jpg" ; alt="Travel man" />
       </div>
     </div>
   </div>
@@ -90,20 +90,23 @@
     font-size: 18px;
     line-height: 22px;
     a {
+      position: relative;
+      // left: 20px;
       color: #fbd784;
       text-decoration: none;
+      // padding-right: 15px;
       &::after {
-        content: "";
-        background-image: url(static/icons/arrow-right.svg);
+        margin-left: 16px;
+        vertical-align: middle;
+        content: url("../static/icons/arrow-right.svg");
+        width: 10px;
+        height: 10px;
+        // background-image: ;
       }
     }
   }
   //  -------------------------------------------отобразить картинку --------------------------------------------
   &__image {
-    // background-image: url("static/jpeg/FirstSection.jpg");
-    // background-repeat: no-repeat;
-    // position: absolute;
-    // display: block;
   }
 }
 </style>
